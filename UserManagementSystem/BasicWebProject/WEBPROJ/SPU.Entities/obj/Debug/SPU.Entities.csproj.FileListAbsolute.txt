@@ -1,0 +1,5 @@
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Entities\bin\Debug\SPU.Entities.dll.config
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Entities\bin\Debug\SPU.Entities.dll
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Entities\bin\Debug\SPU.Entities.pdb
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Entities\obj\Debug\SPU.Entities.dll
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Entities\obj\Debug\SPU.Entities.pdb

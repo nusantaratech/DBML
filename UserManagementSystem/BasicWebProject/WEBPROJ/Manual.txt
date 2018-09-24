@@ -1,0 +1,27 @@
+1. Persiapan database dimana database yang digunakan adalah
+C:\Windows\Microsoft.NET\Framework\v4.0.30319 yaitu aspnet_regsql.exe
+2. Pembuatan Website Project dan Website Application Project [18]
+	a. Website Project
+		-File > New > Project
+		-Other Project Type > Visual Studio Solutions > Blank Solution
+		-Klik kanan project Add > New Web Site..
+		-Pilih Bahasan dan ASP.NET Empty Website
+	a. Website Application Project
+		-File > New > Project
+		-Other Project Type > Visual Studio Solutions > Blank Solution
+		-Klik kanan project Add > New Project
+		-Pilih Bahasan dan ASP.NET Empty Web Application
+3. Melakukan Setting web.config [21]
+4. Setting Role ASP.NET  Website Administration Tool [23]
+5. Membangun public.master dan member.master
+	-Add > New Item > Master Page
+6. Menyiapkan thema
+	-Add ASP.NET Folder > Theme dan Berinama thema nya
+7. Membuat antar muka Login, Default Member, Organisasi List, User List, Site Map dan Menambahkan Use Control (Web User Control)
+8. Mempersiapkan Data Access Layer
+	-Add > New Project > Class Library {SPU.Entities & SPU.DataAccess}
+9. Menambahkan DBML pada SPU.Entities
+10. Tambahkan Reference berikut untuk Keperluan SPU.DataAccess 
+	-System.Web.
+	-System.Configuration.
+	-System.Data.Linq.

@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Member.master.cs" Inherits="Shared_MasterPage_Member" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="HeadMember" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManagerMember" runat="server"></asp:ScriptManager>
+        <div id="header">
+            <h1>INDC</h1>
+            <div id="logo">
+            </div>
+        </div>
+        <div id="MenuContent">
+            <div id="MenuHolder">
+                <asp:SiteMapDataSource ID="SiteMapDataSource_Member" runat="server" SiteMapProvider="SPU_Sitemap" ShowStartingNode="false" />
+                <asp:Menu ID="Menu_Member" runat="server" DataSourceID="SiteMapDataSource_Member"  Orientation="Horizontal"> </asp:Menu>
+            </div>
+            <div id="LogoutHolder">
+                <asp:LoginStatus ID="LoginStatus_Member" runat="server" LoginText="Logout" ForeColor="#ffffff" LogoutImageUrl="~/App_Themes/SPU/images/icon-logout.png" LogoutAction="Refresh" LogoutPageUrl="~/Default.aspx" />
+            </div>
+        </div>
+
+        <div id="SiteMapPathContainer"> 
+            <asp:SiteMapPath ID="SiteMapPath_Member" runat="server"> </asp:SiteMapPath> 
+        </div>
+
+        <div id="mainContentMember">
+            <asp:Panel ID="Panel_Member" runat="server" CssClass="PanelMember" > 
+                <asp:ContentPlaceHolder ID="MainMember" runat="server"> 
+                </asp:ContentPlaceHolder> 
+            </asp:Panel> 
+            <ajaxToolkit:RoundedCornersExtender ID="rce" TargetControlID="Panel_Member" Radius="13" Corners="All" BorderColor="#b3b3b3" runat="server" />
+        </div>
+
+        <div id="footer">
+        </div>
+    </form>
+</body>
+</html>

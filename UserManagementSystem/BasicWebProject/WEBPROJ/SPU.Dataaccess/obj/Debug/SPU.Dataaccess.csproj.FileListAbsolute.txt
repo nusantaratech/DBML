@@ -1,0 +1,7 @@
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Dataaccess\bin\Debug\SPU.Dataaccess.dll
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Dataaccess\bin\Debug\SPU.Dataaccess.pdb
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Dataaccess\bin\Debug\SPU.Entities.dll
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Dataaccess\bin\Debug\SPU.Entities.pdb
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Dataaccess\obj\Debug\SPU.Dataaccess.csprojResolveAssemblyReference.cache
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Dataaccess\obj\Debug\SPU.Dataaccess.dll
+D:\2018FILES\C#\Exam\WEBPROJ\SPU.Dataaccess\obj\Debug\SPU.Dataaccess.pdb

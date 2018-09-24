@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Public.master.cs" Inherits="Shared_MasterPage_Public" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="HeadPublic" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManagerPublic" runat="server"></asp:ScriptManager>
+        <div id="header">
+            <h1>SiteName</h1>
+            <div id="logo">
+
+            </div>
+        </div>
+        <div id="mainContent">
+            <asp:ContentPlaceHolder ID="MainPublic" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+        </div>
+    </form>
+</body>
+</html>

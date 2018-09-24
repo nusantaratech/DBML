@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Dashboard"  description="Dashboard" roles="*">
+    <siteMapNode url="" title="Data Master" description="Data Master" roles="Administrator">
+      <siteMapNode url="~/DataMaster/OrganisasiList.aspx" title="Organisasi" description="Daftar Organisasi" roles="Administrator" />
+    </siteMapNode>
+    <siteMapNode url="" title="User Management" description="User Management" roles="Administrator">
+      <siteMapNode url="~/Management/UserList.aspx" title="User" description="Data User" roles="Administrator" />
+    </siteMapNode>
+    <siteMapNode url="" title="Member" description="Member" roles="Member">
+      <siteMapNode url="~/Dashboard/Profile.aspx" title="Profile" description="Profile" roles="Member" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

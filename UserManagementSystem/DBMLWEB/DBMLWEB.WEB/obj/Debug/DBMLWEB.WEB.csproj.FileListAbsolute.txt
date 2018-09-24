@@ -1,0 +1,11 @@
+C:\Users\johankoesnadi\Downloads\DBMLWEB\DBMLWEB.WEB\bin\DBMLWEB.WEB.dll
+C:\Users\johankoesnadi\Downloads\DBMLWEB\DBMLWEB.WEB\bin\DBMLWEB.WEB.pdb
+C:\Users\johankoesnadi\Downloads\DBMLWEB\DBMLWEB.WEB\bin\itextsharp.dll
+C:\Users\johankoesnadi\Downloads\DBMLWEB\DBMLWEB.WEB\bin\itextsharp.xml
+C:\Users\johankoesnadi\Downloads\DBMLWEB\DBMLWEB.WEB\obj\Debug\DBMLWEB.WEB.dll
+C:\Users\johankoesnadi\Downloads\DBMLWEB\DBMLWEB.WEB\obj\Debug\DBMLWEB.WEB.pdb
+D:\2018FILES\C#\DBML\DBMLWEB\DBMLWEB.WEB\bin\DBMLWEB.WEB.dll.config
+D:\2018FILES\C#\DBML\DBMLWEB\DBMLWEB.WEB\bin\DBMLWEB.WEB.dll
+D:\2018FILES\C#\DBML\DBMLWEB\DBMLWEB.WEB\bin\DBMLWEB.WEB.pdb
+D:\2018FILES\C#\DBML\DBMLWEB\DBMLWEB.WEB\obj\Debug\DBMLWEB.WEB.dll
+D:\2018FILES\C#\DBML\DBMLWEB\DBMLWEB.WEB\obj\Debug\DBMLWEB.WEB.pdb

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SP_Data" Class="SPUSystemDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=SP_Data;User ID=sa" SettingsObjectName="SPU.Entities.Properties.Settings" SettingsPropertyName="SP_DataConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Organisasi" Member="Organisasis">
+    <Type Name="Organisasi">
+      <Column Name="OrgID" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="OrgParent" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="OrgName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OrgDesc" Type="System.String" DbType="NVarChar(113)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
